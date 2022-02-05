@@ -18,13 +18,20 @@ function ram_bat {
             Read-Host))
 
     $jar = "server.jar"
+
     "java -Xmx"+$ram+"G -Xms"+$ram+"G -jar "+$jar+" nogui`npause" | Out-File iniciar.bat
+    iwr -uri https://cdn.discordapp.com/attachments/876642975151718411/939631529062195220/eula.txt -OutFile eula.txt -UseBasicParsing 
 }
 
 # Iniciar Server
 function start_server
 {
-    iniciar.bat
+
+$FILE = Get-Content ".\iniciar.bat"
+foreach ($LINE in $FILE) 
+{
+invoke-expression $LINE
+}
 }
 
 
@@ -122,6 +129,7 @@ if ($select -eq 1){
 }
 elseif ($select -eq 2){
     start_server
+
 }
 elseif ($select -eq 3){
 # Mantenimiento
@@ -129,5 +137,4 @@ elseif ($select -eq 3){
 elseif ($select -eq 4){
     ram_bat
 }
-
 
