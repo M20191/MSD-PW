@@ -10,3 +10,12 @@
                                           Minecraft Server Downloader
                                                Powershell Edition
 ```
+<p align=center>
+<a href="#"><img title="build" src="https://img.shields.io/badge/build-process-red?style=for-the-badge&logo=github"><a>
+</p>
+<p align="center">
+<a href="#"><img title="windows" src="https://img.shields.io/badge/OS-Windows-red?style=for-the-badge&logo=windows"><a>
+</p>
+<p align="center">
+	<a href="#"><img title="license" src="https://img.shields.io/github/license/M20191/MSD-X?style=flat-square&logo=sublime-text"></a>
+</p>
