@@ -19,3 +19,38 @@
 <p align="center">
 	<a href="#"><img title="license" src="https://img.shields.io/github/license/M20191/MSD-X?style=flat-square&logo=sublime-text"></a>
 </p>
+	
+	---
+   
+MSD is a script made in powershell to download, install, run and close minecraft servers 
+Specially designed to be run on windows-server
+  
+## 🌿 Jar's Versions
+
+* Purpur  
+* Paper 
+* Spigot 
+
+## ☀ Features
+
+* Download Server
+* Start server
+* Open console
+* Close Server
+* Change Ram Server
+   
+ 
+## 🛠 Downloading repo, installing requirements and cd path:
+```console
+git clone https://github.com/M20191/MSD-PW/ && cd MSD-PW/
+```
+   
+## 🖥 How to run:
+```ps1
+.\main.ps1
+```
+
+### ⚙ Future To-do List:
+- [ ] Others Features
+- [ ] Optimize code
+- [x] document better
